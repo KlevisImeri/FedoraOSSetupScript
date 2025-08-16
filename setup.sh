@@ -33,7 +33,7 @@ mv .ssh/config ~/.ssh/
 cd ..
 
 ### OTHER
-sudo dnf install pip
+sudo dnf install chromium-browser pip age
 pip install pulsemixer
 
 
