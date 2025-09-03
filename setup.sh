@@ -54,5 +54,10 @@ mv .ssh/config ~/.ssh/
 sudo mv audiosource.sh /usr/local/bin/
 cd ~
 
+xdg-mime default firefox.desktop application/pdf
+xdg-mime default firefox.desktop image/png
+xdg-mime default firefox.desktop image/jpeg
+xdg-mime default firefox.desktop image/svg+xml
+
 i3-msg restart
 source ~/.bashrc
