@@ -54,5 +54,11 @@ mv .ssh/config ~/.ssh/
 sudo mv audiosource.sh /usr/local/bin/
 cd ~
 
+xdg-mime default org.mozilla.firefox.desktop \
+image/png image/jpeg image/svg+xml image/svg+xml-compressed \
+image/gif image/apng image/webp image/avif image/x-icon image/vnd.microsoft.icon image/bmp \
+video/webm video/mp4 video/ogg \
+audio/ogg audio/webm audio/mpeg audio/flac audio/wav audio/x-wav audio/mp4 audio/x-m4a
+
 i3-msg restart
 source ~/.bashrc
