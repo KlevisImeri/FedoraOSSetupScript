@@ -18,7 +18,9 @@ sudo dnf install -y \
     flameshot \
     adb \
     pactl \
-    python3
+    python3 \
+    udisks2 \
+    udiskie
 
 pip install pulsemixer
 
@@ -60,5 +62,6 @@ image/gif image/apng image/webp image/avif image/x-icon image/vnd.microsoft.icon
 video/webm video/mp4 video/ogg \
 audio/ogg audio/webm audio/mpeg audio/flac audio/wav audio/x-wav audio/mp4 audio/x-m4a
 
+udiskie -a -n -t &
 i3-msg restart
 source ~/.bashrc
