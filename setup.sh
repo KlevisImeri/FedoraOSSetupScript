@@ -20,7 +20,9 @@ sudo dnf install -y \
     pactl \
     python3 \
     udisks2 \
-    udiskie
+    udiskie \
+    fd-find \
+    ripgrep
 
 pip install pulsemixer
 
